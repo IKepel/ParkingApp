@@ -1,0 +1,14 @@
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\obj\Debug\net6.0\ParkingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\obj\Debug\net6.0\ParkingApp.AssemblyInfoInputs.cache
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\obj\Debug\net6.0\ParkingApp.AssemblyInfo.cs
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\obj\Debug\net6.0\ParkingApp.csproj.CoreCompileInputs.cache
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\bin\Debug\net6.0\ParkingApp.exe
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\bin\Debug\net6.0\ParkingApp.deps.json
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\bin\Debug\net6.0\ParkingApp.runtimeconfig.json
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\bin\Debug\net6.0\ParkingApp.dll
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\bin\Debug\net6.0\ParkingApp.pdb
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\obj\Debug\net6.0\ParkingApp.dll
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\obj\Debug\net6.0\refint\ParkingApp.dll
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\obj\Debug\net6.0\ParkingApp.pdb
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\obj\Debug\net6.0\ParkingApp.genruntimeconfig.cache
+C:\Users\popov\Desktop\Courses_С#\Pro\1_lesson\SimpleClasses\SimpleClasses\obj\Debug\net6.0\ref\ParkingApp.dll
