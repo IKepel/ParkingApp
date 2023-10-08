@@ -59,11 +59,12 @@ namespace ParkingApp.SimpleClasses
 
                 Console.WriteLine($"Car {car.Brand} {car.Model} with the number {car.TicketNumber} is parked.");
             }
+            else Console.WriteLine("There are not free seats");
         }
 
         public void RemoveCar (int number) 
         {
-            if (AvailableSpots >= 0)
+            if (AvailableSpots > 0)
             {
                 var carToRemove = _cars.Find(car => car.TicketNumber == number);
                 if (carToRemove != null)
@@ -75,6 +76,7 @@ namespace ParkingApp.SimpleClasses
                 }
                 else Console.WriteLine($"The car with license plate {number} was not found in the parking lot.");
             }
+            else Console.WriteLine("There are no cars in the parking lot");
         }
 
         public void DisplayCars()
