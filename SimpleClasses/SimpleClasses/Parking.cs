@@ -64,18 +64,18 @@ namespace ParkingApp.SimpleClasses
 
         public void RemoveCar (int number) 
         {
-            if (AvailableSpots >= 0)
+            var carToRemove = _cars.Find(car => car.TicketNumber == number);
+            if (carToRemove != null)
             {
-                var carToRemove = _cars.Find(car => car.TicketNumber == number);
-                if (carToRemove != null)
-                {
-                    _cars.Remove(carToRemove);
-                    _check.Remove(number);
-                    carToRemove.DepartureTime = DateTime.Now;
-                    Console.WriteLine($"Car {carToRemove.Brand} {carToRemove.Model} with license plate number {carToRemove.TicketNumber} has left the parking lot");
-                }
-                else Console.WriteLine($"The car with license plate {number} was not found in the parking lot.");
+                _cars.Remove(carToRemove);
+                _check.Remove(number);
+                carToRemove.DepartureTime = DateTime.Now;
+                Console.WriteLine($"Car {carToRemove.Brand} {carToRemove.Model} with license plate number {carToRemove.TicketNumber} has left the parking lot");
+
+                int availableSpots = AvailableSpots;
+                Console.WriteLine($"Available parking spots at Parking {ParkingName}: {availableSpots}");
             }
+            else Console.WriteLine($"The car with license plate {number} was not found in the parking lot.");
         }
 
         public void DisplayCars()
