@@ -1,6 +1,6 @@
 ﻿using ParkingApp.SimpleClasses;
 
-var parking = new Parking("MyParking", "123 Main St", 3);
+var parking = new Parking(1, "MyParking", "123 Main St", 3);
 
 var newColor = new Color(0, 0, 255, 100);
 

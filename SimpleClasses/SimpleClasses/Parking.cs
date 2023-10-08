@@ -16,17 +16,21 @@ namespace ParkingApp.SimpleClasses
 
         public int AvailableSpots => Capacity - _check.Count;
 
+        public int ParkingId { get; private set; }
+
         public string ParkingName { get; private set; }
 
         public string ParkingAddress { get; private set; }
 
         public int Capacity { get; private set; }
 
-        public Parking(string name, string address, int capacity)
+        public Parking(int parkingId, string name, string address, int capacity)
         {
+            ParkingId = parkingId;
             ParkingName = name;
             ParkingAddress = address;
             Capacity = capacity;
+            
         }
 
         public void AddCar (Car car)
