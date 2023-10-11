@@ -18,16 +18,38 @@ namespace ParkingApp.SimpleClasses
 
         public Color Color { get; set; }
 
-        public int TicketNumber { get; set; }
+        public int Id { get; set; }
 
         public string CarNumber { get; set; }
 
         public DateTime ArrivalTime { get; set; }
 
         public DateTime DepartureTime  { get; set; }
-        
-        public Car(string brand, string model, Color color, string carNumber) 
+
+        /// <summary>
+        /// Object Car with default params
+        /// </summary>
+        public Car()
         {
+            Id = 0;
+            Brand = "Unknown";
+            Model = "Unknown";
+            Color = new Color();
+            CarNumber = "Unknown";
+            DepartureTime = DateTime.MinValue;
+        }
+
+        /// <summary>
+        /// Object Car
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="brand"></param>
+        /// <param name="model"></param>
+        /// <param name="color"></param>
+        /// <param name="carNumber"></param>
+        public Car(int id, string brand, string model, Color color, string carNumber) 
+        {
+            Id = id;
             Brand = brand;
             Model = model;
             Color = color;
@@ -35,9 +57,27 @@ namespace ParkingApp.SimpleClasses
             DepartureTime = DateTime.MinValue;
         }
 
-        public void ChangeColor(Color newColor)
+        /// <summary>
+        /// Object Car with default color
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="brand"></param>
+        /// <param name="model"></param>
+        /// <param name="carNumber"></param>
+        public Car(int id, string brand, string model, string carNumber)
         {
-            Color = newColor;
+            Id = id;
+            Brand = brand;
+            Model = model;
+            Color = new Color();
+            CarNumber = carNumber;
+            DepartureTime = DateTime.MinValue;
         }
+
+        /// <summary>
+        /// Changes the color of the object to the specified new color.
+        /// </summary>
+        /// <param name="newColor"></param>
+        public void ChangeColor(Color newColor) => Color = newColor;
     }
 }
